@@ -1,0 +1,22 @@
+2025-05-10T09:56:54.777896+0800 ERROR An error has been caught in function '<module>', process 'MainProcess' (6920), thread 'MainThread' (127706727802688):
+Traceback (most recent call last):
+
+> File "/home/lxt/VsCodeProjects/test_github/a_001.py", line 14, in <module>
+    main()
+    └ <function main at 0x742609285620>
+
+  File "/home/lxt/VsCodeProjects/test_github/a_001.py", line 10, in main
+    1 / 0
+
+ZeroDivisionError: division by zero
+2025-05-10T09:57:13.625292+0800 ERROR An error has been caught in function '<module>', process 'MainProcess' (6974), thread 'MainThread' (134302229866304):
+Traceback (most recent call last):
+
+> File "/home/lxt/VsCodeProjects/test_github/a_001.py", line 14, in <module>
+    main()
+    └ <function main at 0x7a25abb7d620>
+
+  File "/home/lxt/VsCodeProjects/test_github/a_001.py", line 10, in main
+    1 / 0
+
+ZeroDivisionError: division by zero

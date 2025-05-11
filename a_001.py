@@ -1,7 +1,14 @@
-print("This is a test file")
+from loguru import logger
 
-print("This is the second version.")
+logger.info("Hello, World!")
 
-print("Before merge dev 2.")
+logger.add("logfile.log", format="{time} {level} {message}", level="DEBUG")
 
-print("There are some conflicts in this file")
+
+@logger.catch
+def main():
+    1 / 0
+
+
+if __name__ == "__main__":
+    main()
